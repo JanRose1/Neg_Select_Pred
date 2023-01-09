@@ -14,3 +14,5 @@ Database of T-Cells with information of what they recognize
 
 Prediction of which self-recognizing T-Cells survive negative selection and what they're predicted to differentiate into. 
 
+![BIOINF 576 Pipeline](https://user-images.githubusercontent.com/69280191/211373953-a5e3a8bf-5ec0-422e-8e61-527db37a4651.png)
+
