@@ -11,9 +11,10 @@ Original file is located at
 import numpy as np
 import pandas as pd
 
+#Have to start implementing portions of my project
+
 def read_input(file):
-  ##reads input file
-  print("Read File")
+  CellDat = pd.read_csv(filename)
 
 def calculate_attachment(Grip,Threshold,cell):
   Calculation = 0
@@ -26,3 +27,11 @@ def establish_environment(Num_TCells,Concentrations):
 
 ## More to come after reading up on things a bit more
 
+#Tests
+def read_correctly(Data)
+  columns = 0
+  while columns != 3
+    print(Data[columns])
+    columns += 1
+
+#Main
