@@ -1,0 +1,7 @@
+# Technology used in the project and computing requirements
+
+I will use Great Lake's Jupyter notebooks in order to run the code with larger datasets
+
+For smaller datasets I will be utilizing Google Colabs in order to test my code and check for anomylous behavior. 
+
+I will use my personal computer (Macbookpro M1, 8GB Memory) for Google Colab access but will connect it the the University of Michigan's Great Lakes research cluster in order to run greater datasets. The amount of CPU cores and other relevant information can be gotten later.
