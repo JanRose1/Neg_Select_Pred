@@ -1,0 +1,18 @@
+General assumption
+Breakdown
+Everything takes 2 seconds 
+- Read in Data
+-Set up environment
+- Compute K binding based on the given parameters of AIRE
+- Calculate Positive selection chance based on K binding 
+  - Determine if it should go through apoptosis
+  - Determine if apoptosis was correctly triggered
+  - Determine what the cell would differentiate to
+- Calculate Negative selection chance based on K binding
+  - Calculate Positive selection chance based on K binding 
+  - Determine if it should go through apoptosis
+  - Determine if apoptosis was correctly triggered
+  - Determine what the cell would differentiate to
+  
+  23 reaction repeat on approximately 200 cells each step takes optimally 2 seconds 
+  9,200 seconds total or about 2 hours and 30 minutes. 
