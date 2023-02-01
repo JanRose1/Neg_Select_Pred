@@ -11,6 +11,7 @@ Original file is located at
 import numpy as np
 import pandas as pd
 
+
 #Have to start implementing portions of my project
 
 def read_input(file):
@@ -25,12 +26,15 @@ def calculate_attachment(Grip,Threshold,cell):
 def establish_environment(Num_TCells,Concentrations):
     print("\n")
 
+def Michaelis_Menten(Vmax,S,K_M):
+    return Vmax*S/(K_M + S)
+
 ## More to come after reading up on things a bit more
 
 #Tests
-def read_correctly(Data)
+def read_correctly(Data):
   columns = 0
-  while columns != 3
+  while columns != 3:
     print(Data[columns])
     columns += 1
 
