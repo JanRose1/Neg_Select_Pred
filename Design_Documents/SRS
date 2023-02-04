@@ -1,0 +1,15 @@
+#Database Selection
+
+
+To start we'll be taking Fasta files that go over variations of the nucleotide sequence of AIRE, CD8A, and RFXANK, and CD4 genes. 
+Each data source has the following number of targets and average number of nucleotides: 
+-AIRE: 1 target; 2690 nucleotides 
+-CD8A: 9 targets; 1995 nucleotides
+-RFXANK: 21 targets ; 1264 nucleotide average
+-CD4: 9 targets; 2956 nucleotide average
+
+The following mathematical computation takes into consideration the targets number of nucleotides and cores necessarry.
+
+All of these files are fasta files that contain information about the gene in question. The transcript length, protein length, orientation, gene type and protein name.
+The total transcript length includes UTR and exons and the site of origin for each of the datasets includes a total exon count for the gene.
+
