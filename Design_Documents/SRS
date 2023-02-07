@@ -9,6 +9,11 @@ Each data source has the following number of targets and average number of nucle
 -CD4: 9 targets; 2956 nucleotide average
 
 The following mathematical computation takes into consideration the targets number of nucleotides and cores necessarry.
+Assuming each of the the total computations for each combination of the given targets takes approximately 1 minute for 100 randomly generated lymphocytes we'll have a total of
+1*9*21*9 = 1702 combinations or approximately 28 hours to run. It's likely that the system will be able to perform each set of computations for each combination in less time.
+Regardless we can simply reduce the total number of targets for initial experiments and debugging.
+
+Currently I'm unsure of the amount of RAM and CPUs that would be necessary to run a project of this size but 16 CPUs with 8 GB of storage should be sufficient.
 
 All of these files are fasta files that contain information about the gene in question. The transcript length, protein length, orientation, gene type and protein name.
 The total transcript length includes UTR and exons and the site of origin for each of the datasets includes a total exon count for the gene.
