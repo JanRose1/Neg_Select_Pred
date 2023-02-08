@@ -42,8 +42,11 @@ More in Depth Activity 2
   -  [] Task 2.1: Download FASTA files 
   -  [] Task 2.2: Input data and read into my code
   -  [] Task 2.3: Blast comparison of Amino Acids
+    - [] The first implementation of this function will be using two of the same fasta sequences which should be guaranteed to be similar  
   -  [] Task 2.4: Compare FASTA file sequences and compare with known sequence that acts as a baseline.
   -  [] Task 2.5: If not comparable to known variation, confirm that Amino Acid sequence is that of desired protein or something different altogether. 
+    - [] Same as task 2.3 The first implementation of this function will be using two of the same fasta file sequences to confirm that they're the same. 
+  - Output will be stored as an array within the code.
 Completion crtieria means being able to adequately differentiate variations in the target protein sequence and the location of the sequence. This information is to be saved in order to be used for future calculations.
 --------------------------
 More in Depth Activity 3
