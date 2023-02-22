@@ -1,5 +1,7 @@
 NEGATIVE_SELECTION_PREDICTION
 
+
+
 Overall Timeline
 - Activity 1: Set up Github Repository
   - [] Task 1.1: Set up Github Repository
@@ -7,6 +9,11 @@ Overall Timeline
   - [] Task 1.3: Set up Project Timeline
   - [] Task 1.4: Set up Project Task List
   - [] Task 1.5: Set up Code Structure
+- Activity 1.5: Clean up Design Documentation
+  - [] Task 1.5.1: Make projects inputs more clear
+  - [] Task 1.5.2: Make project outputs more clear
+  - [] Task 1.5.3: Provide clearer names to project files
+  - [] Task 1.5.4: Reorganize Github accordingly
 - Activity 2: Research Immune system cell Differentiation
   - [] Task 2.1: Research potential Cell Differentiation
   - [] Task 2.2: Find simplest form of Immune cell differentiation and selection process
