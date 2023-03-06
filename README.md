@@ -13,6 +13,7 @@ The goal of this project is to create a software that models the process of nega
 - Steric hindrance will typically not be considered.
 - Threshold will strictly indicate undergoing negative selection or not. (For the moment)
 - Negative Selection is purely determined from mTEC having stronger binding than MHC molecule and effects of CD8 and CD4 binding. Environmental factors     will not come into play when determining binding strength. 
+- Prioritize building a hydrophobic core
 
 
 **Input:**
