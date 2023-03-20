@@ -102,6 +102,38 @@ def BindingSites():
     #Need to finish
     return
 
+def AA_import_todict(file):
+    """
+    Function to import file containing table of amino acid information and convert it into a dictionary
+
+    Parameters:
+    file (path): Path to file containing table of AA info
+
+    Returns:
+    AA_info (dict): Dictionary of AA info
+    """
+    AA_info = {}
+    with open(file) as f:
+        next(f) # skip header line
+        for line in f:
+            parsed_line = line.split()
+            aa_code = parsed_line[1]
+            aa_type = parsed_line[2]
+            pka1 = parsed_line[3]
+            pka2 = parsed_line[4]
+            pka3 = parsed_line[5]
+            charged_atom = parsed_line[6]
+
+            AA_info[aa_code] = {
+                'type': aa_type,
+                'pka1': pka1,
+                'pka2': pka2,
+                'pka3': pka3,
+                'charged_atom': charged_atom
+            }
+
+    return AA_info
+
 #Assumptions I'm making
 #3d molecule can fold any which way to the point of "Re-arranging itself"
 
