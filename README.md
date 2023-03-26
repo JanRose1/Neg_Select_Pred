@@ -32,6 +32,8 @@ Output on whether TCell underwent negative selection based on antigen binding to
 
 **Changes Due to Time Constraints**
 
+Code is intended to be run on the great_lakes_research cluster
+
 Given the unprecedented difficulty in implementing several coding functionalities the code has been severely reduced to its most basic and functional form
 For the moment through the use of a jupyter notebook users will be able to manually input their desired Amino Acid sequences as strings within a specific cell in the jupyter notebook that acts as main. It can only evaluate two AA sequences at a time but the ouput will be the standard free energy of binding of both sequences. Given that one sequence is meant to be a peptide and the other the MHCI/MHC II protein/or the variable region of the T-Cell receptor. By keeping the peptide sequence constant you can essentially compare standard free energy changes directly and thus determine if the T-Cell undergoes negative selection based on the result. 
 
