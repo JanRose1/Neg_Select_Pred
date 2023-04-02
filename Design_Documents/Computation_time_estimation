@@ -1,18 +1,15 @@
-General assumption
 Breakdown
-Everything takes 2 seconds 
-- Read in Data
--Set up environment
-- Compute K binding based on the given parameters of AIRE
-- Calculate Positive selection chance based on K binding 
-  - Determine if it should go through apoptosis
-  - Determine if apoptosis was correctly triggered
-  - Determine what the cell would differentiate to
-- Calculate Negative selection chance based on K binding
-  - Calculate Positive selection chance based on K binding 
-  - Determine if it should go through apoptosis
-  - Determine if apoptosis was correctly triggered
-  - Determine what the cell would differentiate to
+
+Assumption: Will be using an amino acid sequence of a total of 20 AA as a baseline.
+
+- Read in Fasta File of Amino Acid Sequences. (1s)
+- Simulate protein Folding (400 seconds for amino acid sequence of 20 AA. Time increments by approximately 20s as sequence length n increases)
+- Clean Lattice structure (3s for an amino acid sequence of 20AA increase by .25s)
+- Calculate Free Energy change (3s) (*2)
+  - Calculate change in Entropy (1s)
+  - Calculate change in Enthalpy (1s)
+  - Calculate change in free energy (1s)
+ - Determine Negative selection (1s)
+  - Compare free energy change of MHC binding to peptide antigen to that of peptide antigen binding to TCell
   
-  23 reaction repeat on approximately 200 cells each step takes optimally 2 seconds 
-  9,200 seconds total or about 2 hours and 30 minutes. 
+  408 seconds total or about 6.8 minutes. 
