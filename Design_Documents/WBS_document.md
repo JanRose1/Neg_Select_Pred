@@ -4,24 +4,24 @@ NEGATIVE_SELECTION_PREDICTION
 
 Overall Timeline
 - Activity 1: Set up Github Repository
-  - [] Task 1.1: Set up Github Repository
-  - [] Task 1.2: Set up Design Docs
-  - [] Task 1.3: Set up Project Timeline
-  - [] Task 1.4: Set up Project Task List
-  - [] Task 1.5: Set up Code Structure
+  - [X] Task 1.1: Set up Github Repository
+  - [X] Task 1.2: Set up Design Docs
+  - [X] Task 1.3: Set up Project Timeline
+  - [X] Task 1.4: Set up Project Task List
+  - [X] Task 1.5: Set up Code Structure
 - Activity 1.5: Clean up Design Documentation
-  - [] Task 1.5.1: Make projects inputs more clear
-  - [] Task 1.5.2: Make project outputs more clear
-  - [] Task 1.5.3: Provide clearer names to project files
-  - [] Task 1.5.4: Reorganize Github accordingly
+  - [X] Task 1.5.1: Make projects inputs more clear
+  - [X] Task 1.5.2: Make project outputs more clear
+  - [X] Task 1.5.3: Provide clearer names to project files
+  - [X] Task 1.5.4: Reorganize Github accordingly
 - Activity 2: Research Immune system cell Differentiation
-  - [] Task 2.1: Research potential Cell Differentiation
-  - [] Task 2.2: Find simplest form of Immune cell differentiation and selection process
-  - [] Task 2.3: Choose essential functions for code
+  - [X] Task 2.1: Research potential Cell Differentiation
+  - [X] Task 2.2: Find simplest form of Immune cell differentiation and selection process
+  - [X] Task 2.3: Choose essential functions for code
 - Activity 3: Build Initial Code
-  - [] Task 3.1: Design Basic Structure of code
-  - [] Task 3.2: Define Intermediate Steps
-  - [] Task 3.3: Define Output function
+  - [X] Task 3.1: Design Basic Structure of code
+  - [X] Task 3.2: Define Intermediate Steps
+  - [X] Task 3.3: Define Output function
 - Activity 4: Iteration and improvement
   - [] Task 4.1: Test code
   - [] Task 4.2: Repeat step 3 but adding onto basic structure
@@ -29,19 +29,17 @@ Overall Timeline
 ---------------
 First Major output
 - Activity 1: Download Dataset
-  -  [] Task 1.1: Download FASTA files 
+  -  [X] Task 1.1: Download FASTA files 
   -  [] Task 1.2: Prep Datasets and separate protein sequences if necesarry 
    -  How is Data prepared?
-   -  Matrix containing Gene ID, Gene Symbol, number of nucleotides, Chromosome, location and orientation as Values in Matrix in seperate
-      Columns
+   - Fasta file contains Amino Acid Sequence of MHC I or II binding region, Peptide sequence, and TCell Binding site
   - [] Task 1.3: Input data and read into my code
-- Activity 2: Check for abnormalities
-- Activity 3: Create set of lymphocytes with randomly generated binding coefficients on CD4 and CD8
-- Activity 4: Calculate potential binding threshold of the AIRE 
-- Activity 5: Model lymphocytes that would have CD8+ and CD4+ expression even with gene mutation
-- Activity 6: Simulate binding of Lymphocytes to AIRE and MHC I and II for positive and negative selection and determine which ones survive
-- Activity 7: Provide basic statistics determining lymphocytes that survived given the various combinations of parameters from the initial datasets
-- Output: Put all this data in a table
+- Activity 2: Translate Amino Acid sequences into Hydrophobic or Polar designation
+- Activity 3: Simulate protein folding of the Amino Acid Sequence.
+- Activity 4: Simulate binding of Peptide antigen to MHC binding region
+- Activity 5: Simulate binding of Peptide antigen to alpha protein
+- Activity 6: 
+- Output: 
 
 
 -------------------
