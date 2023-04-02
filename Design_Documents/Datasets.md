@@ -1,7 +1,7 @@
 **Preface**
 
-I will be pulling various fasta file sequences from uniprot.org related to functional variations of amino acid sequences of MHC I alpha 1 and alpha 2 subunits, MHC II alpha1 and Alpha2, and the variable regions of mTEC molecules. \
-\
+I will be pulling various fasta file sequences from uniprot.org related to functional variations of amino acid sequences of MHC I alpha 1 and alpha 2 subunits, MHC II alpha1 and Alpha2, and the variable regions of mTEC molecules.
+
 
 The Fasta files will only contain information about the sequence and what molecule they correspond to. 
 
