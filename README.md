@@ -28,7 +28,7 @@ Variable region of the T Cell receptor (Antigen Binding site)
 
 Output on whether TCell underwent negative selection based on antigen binding to variable region.
 
-![BIOINF 576 Pipeline]([Pipeline_Overview.drawio](https://github.com/JanRose1/Neg_Select_Pred/blob/main/Pipeline_Overview.drawio))
+![Pipeline_Overview.drawio](https://github.com/JanRose1/Neg_Select_Pred/blob/main/Pipeline_Overview.drawio.png)
 
 **Changes Due to Time Constraints**
 
