@@ -7,10 +7,12 @@ on:
     branches:
       - main
       - master
+      - ci
   pull_request:
     branches:
       - main
       - master
+      - ci
 
 # independent jobs in the workflow
 jobs:
