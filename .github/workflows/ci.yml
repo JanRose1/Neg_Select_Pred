@@ -5,11 +5,12 @@ on:
     branches:
       - main
       - master
+      - ci
   pull_request:
     branches:
       - main
       - master
-
+      - ci
 env:    # configure environment variables for git commits
   actor: "41898282+github-actions[bot]"
 
