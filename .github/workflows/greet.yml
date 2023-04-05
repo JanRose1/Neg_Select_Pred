@@ -30,6 +30,5 @@ jobs:
       # a custom step that runs R code
       - name: Greet
         run: print("Hello, world!")
-        # Replace `shell: Rscript {0}` with `shell: python {0}` to run Python code 
-instead!
+        # Replace `shell: Rscript {0}` with `shell: python {0}` to run Python code instead!
         shell: Rscript {0}
