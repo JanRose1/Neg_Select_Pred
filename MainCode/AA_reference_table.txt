@@ -1,0 +1,21 @@
+#amino_acid	#AA_code	#type	#pka1	#pka2	#pka3	#charged_atom
+alanine	A	non-polar	2.34	9.69	.	.
+valine	V	non-polar	2.32	9.62	.	.
+phenylalanine	F	non-polar	1.83	9.13	.	.
+tryptophan	W	non-polar	2.83	9.39	.	.
+leucine	L	non-polar	2.36	9.60	.	.
+isoleucine	I	non-polar	2.36	9.60	.	.
+methionine	M	non-polar	2.28	9.21	.	.
+proline	P	non-polar	1.99	10.60	.	.
+glycine	G	non-polar	2.34	9.60	.	.
+serine	S	polar_uncharged	2.21	9.15	.	.
+threonine	T	polar_uncharged	2.09	9.10	.	.
+tyrosine	Y	polar_uncharged	2.20	9.11	.	.
+asparagine	N	polar_uncharged	2.02	8.80	.	.
+glutamine	Q	polar_uncharged	2.17	9.13	.	.
+cysteine	C	polar_uncharged	1.96	8.18	.	.
+histidine	H	polar_uncharged	1.82	9.17	6.00	N
+aspartate	D	polar_charged	1.88	9.60	3.65	O
+glutamate	E	polar_charged	2.19	9.67	4.25	O
+lysine	K	polar_charged	2.18	8.95	10.53	9.74	N
+arginine	R	polar_charged	2.17	9.04	12.48	N
