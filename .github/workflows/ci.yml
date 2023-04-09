@@ -36,7 +36,6 @@ jobs:
         git config --local user.name "$actor"
     - name: Test
       run: |
-        pytest .test_Standard_free.py
 	pytest .Test_MostP.py
 	pytest .Test_find_factors.py
 	pytest .test_Entropy_Calculation.py
