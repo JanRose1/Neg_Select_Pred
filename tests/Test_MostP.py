@@ -15,7 +15,7 @@ def MostP():
     distance[2][2][2] = 1
     distance = clean_lattice(n,distance)
     V = MostP(3,distance)
-    assert V == [1,0], "MostP not working"	
+    assert V == (1,0), "MostP not working"	
     
     
     
