@@ -36,7 +36,19 @@ jobs:
         git config --local user.name "$actor"
     - name: Test
       run: |
-        pytest .
+        pytest .test_Standard_free.py
+	pytest .test_similarity.py
+	pytest .Test_MostP.py
+	pytest .test_Michaelis.py
+	pytest .test_Hydrogen_Bonds.py
+	pytest .Test_find_factors.py
+	pytest .test_Entropy_Calculation.py
+	pytest .test_Enthalpy_calculation.py
+	pytest .Test_Divide_String.py
+	pytest .Test_Clean_Lattice.py
+	pytest .test_deviations.py
+	pytest .test_Calculate_Directions.py
+	pytest .Test_Backtracking.py
     - name: Format & lint
       run: |
         black . # first run black, then run flake8
