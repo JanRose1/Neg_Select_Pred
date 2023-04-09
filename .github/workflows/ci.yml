@@ -36,16 +36,16 @@ jobs:
         git config --local user.name "$actor"
     - name: Test
       run: |
-	pytest .test_Standard_free.py
-	pytest .Test_MostP.py
-	pytest .Test_find_factors.py
-	pytest .test_Entropy_Calculation.py
-	pytest .test_Enthalpy_calculation.py
-	pytest .Test_Divide_String.py
-	pytest .Test_Clean_Lattice.py
-	pytest .test_deviations.py
-	pytest .test_Calculate_Directions.py
-	pytest .Test_Backtracking.py
+	pytest . test_Standard_free.py
+	pytest . Test_MostP.py
+	pytest . Test_find_factors.py
+	pytest . test_Entropy_Calculation.py
+	pytest . test_Enthalpy_calculation.py
+	pytest . Test_Divide_String.py
+	pytest . Test_Clean_Lattice.py
+	pytest . test_deviations.py
+	pytest . test_Calculate_Directions.py
+	pytest . Test_Backtracking.py
     - name: Format & lint
       run: |
         black . # first run black, then run flake8
