@@ -350,12 +350,6 @@ string3 = input()
 print("Input the location of the AA Table file you want to read in")
 string4 = input()
 
-string1 = "MHC.fasta"
-string2 = "Peptide.fasta"
-string3 = "Binding.fasta"
-string4 = "AA_reference_table.txt"
-
-
 #Read in Amino Acid Strings
 MHC = open(string1).read() 
 Peptide = open(string2).read()
@@ -397,16 +391,15 @@ DBindingEntropy = FBindingEntropy - BBindingEntropy
 #For now ignoring Enthalpy changes. 
 
 
-StandardGMHC = 0
-if MaxPPeptide <= MaxPMHC:
-    StandardGMHC = SFree_E(-MaxPPeptide*50,DMHCEntropy)
-else:
-    StandardGMHC = SFree_E(-MaxPMHC*50,DMHCEntropy)
-
-standardGBinding = 0
+StandardGBinding = 0
 StandardGMHC = 0
 if MaxPPeptide <= MaxPBinding:
     StandardGBinding = SFree_E(-MaxPPeptide*50,DBindingEntropy)
+else:
+    StandardGBinding = SFree_E(-MaxPBinding*50,DBindingEntropy)
+    
+if MaxPPeptide <= MaxPMHC:
+    StandardGMHC = SFree_E(-MaxPPeptide*50,DBindingEntropy)
 else:
     StandardGMHC = SFree_E(-MaxPMHC*50,DBindingEntropy)
 
