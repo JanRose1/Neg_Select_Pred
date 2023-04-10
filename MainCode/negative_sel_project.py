@@ -340,6 +340,7 @@ def createLattice(AA1,Conversion1):
     return MaxPLattice,Ideal_face
 
 #Main 
+#Testing Protein Folding
 print("Input the location of the MHC file you want to read in")
 string1 = input()
 print("Input the location of the Peptide file you want to read in")
@@ -348,6 +349,12 @@ print("Input the location of the Binding Site file you want to read in")
 string3 = input()
 print("Input the location of the AA Table file you want to read in")
 string4 = input()
+
+string1 = "MHC.fasta"
+string2 = "Peptide.fasta"
+string3 = "Binding.fasta"
+string4 = "AA_reference_table.txt"
+
 
 #Read in Amino Acid Strings
 MHC = open(string1).read() 
@@ -361,17 +368,16 @@ MHCCon = []
 PeptideCon = []
 BindingCon = []
 MHCCon,MHC,PeptideCon,Peptide,BindingCon,Binding = convertAA(MHC,Peptide,Binding,AA_Table)
-#Folding for the first peptide sequence
-print(MHCCon)
-print(MHC)
-#sys.exit(1)       
+#Folding for the first peptide sequence    
 #Code 
+print("This is the Protein")
 MaxPMHC, MHCFace = createLattice(MHC,MHCCon)
-sys.exit(1)
+print("This is the Peptide")
 MaxPPeptide,PeptideFace = createLattice(Peptide,PeptideCon)
+print("This is the Variable Region")
 MaxPBinding,BindingFace = createLattice(Binding,BindingCon)
 
-sys.exit(1)
+#sys.exit(1)
 #Just doing basic entropy change and enthalpy = number of bonds formed. 
 
 FMHCEntropy = len(MHC)*len(MHC)
@@ -398,10 +404,11 @@ else:
     StandardGMHC = SFree_E(-MaxPMHC*50,DMHCEntropy)
 
 standardGBinding = 0
+StandardGMHC = 0
 if MaxPPeptide <= MaxPBinding:
     StandardGBinding = SFree_E(-MaxPPeptide*50,DBindingEntropy)
 else:
-    StandardGBinding = SFree_E(-MaxPMHC*50,DBindingEntropy)
+    StandardGMHC = SFree_E(-MaxPMHC*50,DBindingEntropy)
 
 print(StandardGBinding)
 print(StandardGMHC)
@@ -410,3 +417,4 @@ if StandardGBinding <= StandardGMHC:
     print("Safe from negative Selection")
 else:
     print("Underwent Negative Selection")
+    
