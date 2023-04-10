@@ -12,7 +12,7 @@ def FindFactors():
     
     #Test 1
     V = findFactors(10)
-    assert V == 5, "Wrong Value"	
+    assert V == 4, "Wrong Value"	
     
   
     
