@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-from Neg_Sel_Pred.negative_sel_project import findfactors
+from MainCode.negative_sel_project import findfactors
 
 
 

@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-from Neg_Sel_Pred.negative_sel_project import clean_lattice
+from MainCode.negative_sel_project import clean_lattice
 
 
 def CleanLattice():
