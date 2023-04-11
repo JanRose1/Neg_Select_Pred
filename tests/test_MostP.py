@@ -5,6 +5,7 @@
 
 
 from MainCode.negative_sel_project import MostP
+from MainCode.negative_sel_project import clean_lattice
 
 
 def test_MostP():
