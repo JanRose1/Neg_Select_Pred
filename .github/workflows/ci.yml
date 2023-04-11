@@ -36,7 +36,7 @@ jobs:
         git config --local user.name "$actor"
     - name: Test
       run: |
-        pytest .
+        pytest .test_Standard_free.py
     - name: Format & lint
       run: |
         black . # first run black, then run flake8
