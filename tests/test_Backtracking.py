@@ -7,7 +7,7 @@
 from MainCode.negative_sel_project import backtracking
 
 
-def backtracking():
+def test_backtracking():
     
     #Test 1
     AA = 'HPHP'

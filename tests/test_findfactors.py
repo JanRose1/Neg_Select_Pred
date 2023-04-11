@@ -8,7 +8,7 @@ from MainCode.negative_sel_project import findfactors
 
 
 
-def FindFactors():
+def test_FindFactors():
     
     #Test 1
     V = findfactors(10)

@@ -8,7 +8,7 @@ from MainCode.negative_sel_project import SFree_E
 
 
 
-def SFree_E():
+def test_SFreeE():
     
     #Test 1
     Enthalpy = 10

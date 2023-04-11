@@ -7,7 +7,7 @@
 from MainCode.negative_sel_project import divideString
 
 
-def Divide_String():
+def test_DivideString():
     
     #Test 1
     AA = 'HPHPHPHP'
