@@ -95,21 +95,6 @@ def possible_connections(n,last_cord):
     
     return directions
 
-def backtracking(AA,Past_cords):
-    totalHH = 0
-    for i in range(0,len(Past_cords)):
-        if AA[i] == 'H':
-            locations = possible_connections(len(AA),Past_cords[i])
-            for x in range(0,len(locations)):
-                index = 0
-                if locations[x] in Past_cords:
-                    index = Past_cords.index(locations[x])
-                    if (index != i + 1 or index != i - 1) and AA[index] == 'H':
-                        totalHH += 1
-                else:
-                    continue
-    return totalHH
-
 def findfactors(num):
     num = num - 2
     factors = []
